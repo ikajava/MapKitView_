@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         // Feature 2
         
         
+        
+        
+        
+        // Several bugs fixed
     }
 
     override func didReceiveMemoryWarning() {
