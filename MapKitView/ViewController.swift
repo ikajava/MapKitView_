@@ -23,12 +23,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         restauranTableView.delegate = self
         restauranTableView.dataSource = self
         
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.doubleTap))
+        tapGestureRecognizer.numberOfTapsRequired = 2
+        restauranTableView.addGestureRecognizer(tapGestureRecognizer)
+        
         
         refreshController.addTarget(self, action: #selector(self.refreshData), for: .valueChanged)
         
         restauranTableView.addSubview(refreshController)
-        
+    }
     
+    @objc func doubleTap() {
+        performSegue(withIdentifier: "mapSegue", sender: nil)
     }
     
     @objc func refreshData() {

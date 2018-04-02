@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9020F7E427AC2E81F6F2EF8A /* Pods_MapKitView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56CAFF72B34EF8A88D47ADA /* Pods_MapKitView.framework */; };
+		E771A30F206E988000A4CE40 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E771A30E206E988000A4CE40 /* MapViewController.swift */; };
 		E77842B0206BF13400A54AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77842AF206BF13400A54AFF /* AppDelegate.swift */; };
 		E77842B2206BF13400A54AFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77842B1206BF13400A54AFF /* ViewController.swift */; };
 		E77842B5206BF13400A54AFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77842B3206BF13400A54AFF /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		81A1DE9A3B7B134B9CDB77C7 /* Pods-MapKitView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKitView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapKitView/Pods-MapKitView.release.xcconfig"; sourceTree = "<group>"; };
 		B56CAFF72B34EF8A88D47ADA /* Pods_MapKitView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapKitView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6368550BADA87B4A50F0F4 /* Pods-MapKitView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapKitView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapKitView/Pods-MapKitView.debug.xcconfig"; sourceTree = "<group>"; };
+		E771A30E206E988000A4CE40 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E77842AC206BF13400A54AFF /* MapKitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77842AF206BF13400A54AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E77842B1206BF13400A54AFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				E77842BB206BF13400A54AFF /* Info.plist */,
 				E7CE78DD206C05FC00797381 /* restaurant.swift */,
 				E7CE78DF206C098800797381 /* detailsViewController.swift */,
+				E771A30E206E988000A4CE40 /* MapViewController.swift */,
 			);
 			path = MapKitView;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				E7CE78DE206C05FC00797381 /* restaurant.swift in Sources */,
 				E77842B2206BF13400A54AFF /* ViewController.swift in Sources */,
 				E77842B0206BF13400A54AFF /* AppDelegate.swift in Sources */,
+				E771A30F206E988000A4CE40 /* MapViewController.swift in Sources */,
 				E7CE78E0206C098800797381 /* detailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
